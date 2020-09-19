@@ -44,7 +44,6 @@ const StyledInfo = styled.h3`
   margin: 0;
   padding: 0;
   text-align: center;
-
   > b {
     color: ${(props) => props.theme.color.grey[600]};
   }
