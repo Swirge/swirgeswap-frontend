@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# swirgeswap-frontend
+
+=======
+>>>>>>> 587b5e438f7be587c8e7851d6731f089cfce880f
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
