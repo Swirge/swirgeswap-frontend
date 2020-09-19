@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Container from '../Container'
-import Logo from '../Logo'
+import Logo from '../Logo';
 
 import AccountButton from './components/AccountButton'
 import Nav from './components/Nav'

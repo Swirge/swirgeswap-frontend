@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import icon from '../../assets/img/Swirge.png'
 
 interface SushiIconProps {
   size?: number
@@ -15,7 +16,9 @@ const SushiIcon: React.FC<SushiIconProps> = ({ size = 36, v1, v2, v3 }) => (
       filter: v1 ? 'saturate(0.5)' : undefined,
     }}
   >
-    🍣
+    <img src = {icon} alt = "logo" width = '50px' style={{
+      margin: '1rem 0 0 0'
+    }} />
   </span>
 )
 
