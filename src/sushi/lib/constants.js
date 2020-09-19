@@ -77,12 +77,12 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
-    name: 'Sushi Party!',
-    symbol: 'SUSHI-ETH UNI-V2 LP',
-    tokenSymbol: 'SUSHI',
+    name: 'Swirge Farm',
+    symbol: 'SWG-ETH SLP',
+    tokenSymbol: 'SWG',
     icon: '🍣',
   },
-  {
+  { 
     pid: 0,
     lpAddresses: {
       1: '0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852',
@@ -90,7 +90,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xdac17f958d2ee523a2206206994597c13d831ec7',
     },
-    name: 'Tether Turtle',
+    name: 'Tether Farm',
     symbol: 'USDT-ETH UNI-V2 LP',
     tokenSymbol: 'USDT',
     icon: '🐢',
@@ -103,7 +103,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
     },
-    name: 'Circle Snail',
+    name: 'Circle Farm',
     symbol: 'USDC-ETH UNI-V2 LP',
     tokenSymbol: 'USDC',
     icon: '🐌',
@@ -116,7 +116,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x6b175474e89094c44da98b954eedeac495271d0f',
     },
-    name: 'Donald DAI',
+    name: 'DAI Farm',
     symbol: 'DAI-ETH UNI-V2 LP',
     tokenSymbol: 'DAI',
     icon: '🦆',
@@ -129,7 +129,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x57ab1ec28d129707052df4df418d58a2d46d5f51',
     },
-    name: 'Spartan Dollar',
+    name: 'Spartan Dollar Farm',
     symbol: 'SUSD-ETH UNI-V2 LP',
     tokenSymbol: 'SUSD',
     icon: '🦍',
@@ -142,7 +142,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x04fa0d235c4abf4bcf4787af4cf447de572ef828',
     },
-    name: 'Umami Squid',
+    name: 'Umami Farm',
     symbol: 'UMA-ETH UNI-V2 LP',
     tokenSymbol: 'UMA',
     icon: '🦑',
@@ -155,7 +155,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xba11d00c5f74255f56a5e366f4f77f5a186d7f55',
     },
-    name: 'Band-osaurus',
+    name: 'Band Farm',
     symbol: 'BAND-ETH UNI-V2 LP',
     tokenSymbol: 'BAND',
     icon: '🦖',
@@ -168,7 +168,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x514910771af9ca656af840dff83e8264ecf986ca',
     },
-    name: 'Toadie Marine',
+    name: 'Link Farm',
     symbol: 'LINK-ETH UNI-V2 LP',
     tokenSymbol: 'LINK',
     icon: '🐸',
@@ -181,7 +181,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xd46ba6d942050d489dbd938a2c909a5d5039a161',
     },
-    name: 'Ample Chicks',
+    name: 'Ample Farm',
     symbol: 'AMPL-ETH UNI-V2 LP',
     tokenSymbol: 'AMPL',
     icon: '🐥',
@@ -194,7 +194,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xc00e94cb662c3520282e6f5717214004a7f26888',
     },
-    name: 'Compound Truffle',
+    name: 'Compound Farm',
     symbol: 'COMP-ETH UNI-V2 LP',
     tokenSymbol: 'COMP',
     icon: '🍄',
@@ -207,7 +207,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x80fb784b7ed66730e8b1dbd9820afd29931aab03',
     },
-    name: 'Aave Boar',
+    name: 'Lend Farm',
     symbol: 'LEND-ETH UNI-V2 LP',
     tokenSymbol: 'LEND',
     icon: '🐗',
@@ -233,7 +233,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e',
     },
-    name: 'YFI Whale',
+    name: 'YFI Farm',
     symbol: 'YFI-ETH UNI-V2 LP',
     tokenSymbol: 'YFI',
     icon: '🐋',
@@ -246,7 +246,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x408e41876cccdc0f92210600ef50372656052a38',
     },
-    name: 'REN Rhino',
+    name: 'REN Farm',
     symbol: 'REN-ETH UNI-V2 LP',
     tokenSymbol: 'REN',
     icon: '🦏',
@@ -259,7 +259,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5',
     },
-    name: 'BASED Bull',
+    name: 'BASED Farm',
     symbol: 'BASE-sUSD UNI-V2 LP',
     tokenSymbol: 'BASED',
     icon: '🐂',
@@ -298,7 +298,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xD533a949740bb3306d119CC777fa900bA034cd52',
     },
-    name: 'CRV Crocodile',
+    name: 'CRV Farm',
     symbol: 'CRV-ETH UNI-V2 LP',
     tokenSymbol: 'CRV',
     icon: '🐊',
