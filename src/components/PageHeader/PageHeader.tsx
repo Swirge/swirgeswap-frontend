@@ -12,9 +12,21 @@ interface PageHeaderProps {
 const PageHeader: React.FC<PageHeaderProps> = ({ icon, subtitle, title }) => {
   return (
     <Container size="sm">
+      <link rel="stylesheet" type="text/css"
+          href="https://swirgepay.com/font/style.css"/>
       <StyledPageHeader>
         <StyledIcon>{icon}</StyledIcon>
-        <h1>
+        <style>
+          .title{
+            `{
+              font-family: 'Virgo';
+              font-size: 40px
+            }`
+          }
+        </style>
+        <h1 className = 'title' style = {{
+          color: '#2883dd'
+        }}>
           {title}
         </h1>
         {/* <StyledTitle>{title}</StyledTitle> */}
