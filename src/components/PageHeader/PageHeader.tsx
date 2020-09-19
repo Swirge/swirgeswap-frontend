@@ -19,7 +19,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({ icon, subtitle, title }) => {
         <style>
           .title{
             `{
-              font-family: 'Virgo';
+              font-family: 'Virgo 01';
               font-size: 40px
             }`
           }
