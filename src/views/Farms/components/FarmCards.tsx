@@ -70,6 +70,7 @@ const FarmCards: React.FC = () => {
           <StyledRow key={i}>
             {farmRow.map((farm, j) => (
               <React.Fragment key={j}>
+                
                 <FarmCard farm={farm} />
                 {(j === 0 || j === 1) && <StyledSpacer />}
               </React.Fragment>

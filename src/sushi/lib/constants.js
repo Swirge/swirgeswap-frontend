@@ -1,4 +1,5 @@
-import BigNumber from 'bignumber.js/bignumber'
+import BigNumber from 'bignumber.js/bignumber';
+import logo from '../../assets/img/Swirge.png'
 
 export const SUBTRACT_GAS_LIMIT = 100000
 
@@ -80,7 +81,7 @@ export const supportedPools = [
     name: 'Swirge Farm',
     symbol: 'SWG-ETH SLP',
     tokenSymbol: 'SWG',
-    icon: '🍣',
+    icon:  "💎"
   },
   { 
     pid: 0,

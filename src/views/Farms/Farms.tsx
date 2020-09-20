@@ -26,7 +26,7 @@ const Farms: React.FC = () => {
           <>
             <Route exact path={path}>
               <PageHeader
-                icon={<img src={logo} height="120" />}
+                icon={<img src={logo} height="150" />}
                 subtitle="Earn SWG tokens by staking Swirge LP Tokens."
                 title="Select Your Pair"
               />
