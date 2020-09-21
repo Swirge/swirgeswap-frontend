@@ -20,12 +20,14 @@ const PageHeader: React.FC<PageHeaderProps> = ({ icon, subtitle, title }) => {
           .title{
             `{
               font-family: 'Virgo 01';
-              font-size: 40px
+              font-size: 40px;
+              text-align: center;
             }`
           }
         </style>
         <h1 className = 'title' style = {{
-          color: '#2883dd'
+          color: '#2883dd',
+          textAlign: 'center'
         }}>
           {title}
         </h1>
